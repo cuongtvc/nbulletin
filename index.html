@@ -419,7 +419,8 @@
         <select id="news-filter">
           <option value="important">Headlines</option>
           <option value="positive">Good News</option>
-          <option value="world-news">World News</option>
+          <option value="business">Business</option>
+          <option value="politics">Politics</option>
           <option value="tech">Technology</option>
           <option value="opinion">Opinion</option>
           <option value="sport">Sport</option>
@@ -557,7 +558,8 @@
           return newsData.filter(item => item.importance >= 8);
         case "positive":
           return newsData.filter(item => item.positivity >= 8);
-        case "world-news":
+        case "business":
+        case "politics":
         case "tech":
         case "opinion":
         case "sport":
