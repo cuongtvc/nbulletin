@@ -2,103 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>News Bulletin 24h</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-    }
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-      background: #fff;
-    }
-    h1 {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-    .news-item {
-      margin-bottom: 20px;
-      padding: 20px;
-      border-bottom: 1px solid #ccc;
-    }
-    .news-title {
-      font-size: 1.5rem;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-    .news-summary {
-      font-size: 1rem;
-      line-height: 1.5;
-    }
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-      .news-title {
-        font-size: 1.25rem;
+  <title>Redirecting...</title>
+  <script>
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      let dest = params.get('dest');
+
+      if (dest) {
+        // If the query parameter exists, store it.
+        localStorage.setItem('dest', dest);
+      } else {
+        // If no query param, check if a value is stored.
+        dest = localStorage.getItem('dest');
+        if (!dest) {
+          // If no stored value, randomly choose from the allowed options.
+          const options = ["", "shortnews", "quizzes"];
+          dest = options[Math.floor(Math.random() * options.length)];
+          localStorage.setItem('dest', dest);
+        }
       }
-      .news-summary {
-        font-size: 0.9rem;
+
+      // Redirect based on the destination.
+      if (dest === "") {
+        window.location.href = "home.html";
+      } else {
+        window.location.href = `home_${dest}.html`;
       }
-      .container {
-        padding: 15px;
-      }
-    }
-    @media (max-width: 480px) {
-      .news-item {
-        padding: 15px;
-      }
-      .news-title {
-        font-size: 1.1rem;
-      }
-      .news-summary {
-        font-size: 0.85rem;
-      }
-    }
-  </style>
-    <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NW2JKSK3');</script>
-  <!-- End Google Tag Manager -->
+    })();
+  </script>
 </head>
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NW2JKSK3"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-  <div class="container">
-    <h1>News Bulletin 24h</h1>
-    <div id="newsContainer"></div>
-  </div>
-  
-  <script>
-    // Example JSON array with news objects
-    const newsData = [{"title":"Caesar Unmasked","summary":"Former Syrian military photographer Caesar, now known as First Lieutenant Farid al-Madhhan, has revealed his identity, shedding light on the atrocities committed during the Assad regime through his harrowing photographs."},{"title":"Polar Bears in Canada at Risk of Extinction","summary":"Polar bears in Canada are facing extinction due to climate change affecting their sea ice habitat, prompting efforts for conservation and community adaptation."},{"title":"Bybit Hackers Launder $1.4B","summary":"Hackers have successfully laundered nearly all of the $1.4 billion in cryptocurrency stolen from Bybit, converting most of it into Bitcoin and employing sophisticated methods to obscure the funds' origins, according to blockchain monitoring experts."},{"title":"EU's $840B Defense Plan","summary":"The European Union announced a $840 billion defense investment plan called 'ReArm Europe' to enhance military spending in response to President Trump's suspension of U.S. military aid to Ukraine."},{"title":"James Harrison, 'Golden Arm' Donor, Dies at 88","summary":"James Harrison, the Australian blood donor known as the 'Man with the Golden Arm' for saving 2.4 million babies through his plasma donations, has passed away at the age of 88."},{"title":"Journalist Killed in Mexico","summary":"A local reporter named Kristian Zavala was shot dead in Guanajuato, marking the third killing of a journalist in Mexico this year amid rising violence linked to drug cartels."}];;
-    
-    const container = document.getElementById("newsContainer");
-    
-    newsData.filter(item => item.importance >= 9).forEach(news => {
-      const newsItem = document.createElement("div");
-      newsItem.className = "news-item";
-      
-      const title = document.createElement("div");
-      title.className = "news-title";
-      title.textContent = news.title;
-      
-      const summary = document.createElement("div");
-      summary.className = "news-summary";
-      summary.textContent = news.summary;
-      
-      newsItem.appendChild(title);
-      newsItem.appendChild(summary);
-      container.appendChild(newsItem);
-    });
-  </script>
+  <p>Redirecting, please wait...</p>
 </body>
 </html>
