@@ -81,6 +81,60 @@
     // Example JSON array with news objects
     const newsData = [
   {
+    "title": "3/19: CBS Evening News",
+    "content": "In recent news, an Indian researcher from Georgetown University, Badar Khan Suri, has been detained by ICE while studying and teaching on a student visa. Meanwhile, Greenpeace has been ordered to pay $660 million over protests against the Dakota Access Pipeline, with Energy Transfer claiming defamation and property damage. Additionally, Red Lobster's new CEO is trying to revitalize the brand following its bankruptcy last year, amid a challenging economic environment. The U.S. has also fallen to its lowest-ever ranking in the World Happiness Report for 2025, with Finland maintaining the top position.",
+    "link": "https://www.cbsnews.com/video/031925-cbs-evening-news/",
+    "cat": "politics",
+    "positivity": 4,
+    "importance": 7,
+    "question": "What recent legal challenges have Greenpeace and Red Lobster faced?",
+    "answers": [
+      {
+        "text": "Greenpeace ordered to pay $660 million and Red Lobster facing bankruptcy adjustments.",
+        "correct": true
+      },
+      {
+        "text": "Greenpeace won a lawsuit against Energy Transfer and Red Lobster expanded its locations.",
+        "correct": false
+      },
+      {
+        "text": "Greenpeace is being praised for its protests while Red Lobster is opening new franchises.",
+        "correct": false
+      },
+      {
+        "text": "Greenpeace is facing no legal challenges while Red Lobster is increasing its menu prices.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "title": "Netanyahu gifts Fetterman a silver-plated beeper after he praised Israel's Lebanon pager operation",
+    "content": "During a recent visit to Israel, Senator John Fetterman received a silver-plated beeper from Prime Minister Benjamin Netanyahu as a commemorative gift. This gesture followed Fetterman's praise for Israel's operation that involved detonating pagers worn by Hezbollah terrorists in Lebanon. Fetterman has shown continued support for Israel, particularly in light of the recent conflict with Hamas, and has been vocal about demanding the return of hostages taken by the group. In return for the beeper, Fetterman presented Netanyahu with a framed article honoring his brother, a fallen Israeli soldier.",
+    "link": "https://www.foxnews.com/politics/netanyahu-gifts-fetterman-silver-plated-beeper-after-he-praised-israels-lebanon-pager-operation",
+    "cat": "politics",
+    "positivity": 8,
+    "importance": 7,
+    "question": "What gift did Netanyahu give to Senator Fetterman during his visit?",
+    "answers": [
+      {
+        "text": "A silver-plated beeper",
+        "correct": true
+      },
+      {
+        "text": "A gold watch",
+        "correct": false
+      },
+      {
+        "text": "A framed photo",
+        "correct": false
+      },
+      {
+        "text": "A military medal",
+        "correct": false
+      }
+    ]
+  },
+  {
     "title": "Traveling amid measles, plus pet food recalls and cancer risk factors",
     "content": "The latest health newsletter from Fox News highlights important health updates, including travel safety tips during a measles outbreak, recent pet food recalls due to bird flu, and the correlation between obesity, stress, and certain cancer types. Experts stress the contagiousness of measles, urging travelers to take precautions. Additionally, the article discusses the health implications of processed foods and calls attention to the need for awareness regarding food safety.",
     "link": "https://www.foxnews.com/health/traveling-amid-measles-outbreak-bird-flu-product-recalls-plus-cancer-linked-high-stress",
@@ -1143,33 +1197,6 @@
     ]
   },
   {
-    "title": " Large alien planets may be born in chaos, NASA's retired exoplanet-hunter finds ",
-    "content": "A study using data from NASA's Kepler telescope revealed that large exoplanets tend to form in chaotic environments, contrasting with the formation of smaller planets which typically have circular orbits. Researchers found that larger planets, particularly those with non-circular orbits, are more likely to develop in turbulent systems rich in metals like oxygen and iron. The study highlights a significant difference in the formation pathways of small and large planets, indicating that the orbits and sizes of planets are closely linked to their formation conditions.",
-    "link": "https://www.space.com/the-universe/exoplanets/large-alien-planets-may-be-born-in-chaos-nasas-retired-exoplanet-hunter-finds",
-    "cat": "tech",
-    "positivity": 8,
-    "importance": 9,
-    "question": "How do large alien planets differ in their formation compared to smaller planets?",
-    "answers": [
-      {
-        "text": "They are born in chaotic environments with non-circular orbits.",
-        "correct": true
-      },
-      {
-        "text": "They form similarly to small planets with circular orbits.",
-        "correct": false
-      },
-      {
-        "text": "They do not form around metal-rich stars.",
-        "correct": false
-      },
-      {
-        "text": "They have no relationship with their orbital shapes.",
-        "correct": false
-      }
-    ]
-  },
-  {
     "title": " NASA still mulling options for Boeing's troubled Starliner astronaut capsule ",
     "content": "NASA is currently evaluating options for Boeing's Starliner astronaut capsule following its first crewed mission, which faced several technical issues, including propulsion-system helium leaks and thruster failures. The uncrewed return of Starliner was conducted safely after an extended mission period, but NASA has not determined when the capsule will fly again or whether it will carry astronauts. Ongoing assessments and necessary design adjustments are planned to address the thruster problems experienced during the mission.",
     "link": "https://www.space.com/space-exploration/international-space-station/nasa-still-mulling-options-for-boeings-troubled-starliner-astronaut-capsule",
@@ -1192,6 +1219,33 @@
       },
       {
         "text": "Regulatory delays in launch approval",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "title": " Large alien planets may be born in chaos, NASA's retired exoplanet-hunter finds ",
+    "content": "A study using data from NASA's Kepler telescope revealed that large exoplanets tend to form in chaotic environments, contrasting with the formation of smaller planets which typically have circular orbits. Researchers found that larger planets, particularly those with non-circular orbits, are more likely to develop in turbulent systems rich in metals like oxygen and iron. The study highlights a significant difference in the formation pathways of small and large planets, indicating that the orbits and sizes of planets are closely linked to their formation conditions.",
+    "link": "https://www.space.com/the-universe/exoplanets/large-alien-planets-may-be-born-in-chaos-nasas-retired-exoplanet-hunter-finds",
+    "cat": "tech",
+    "positivity": 8,
+    "importance": 9,
+    "question": "How do large alien planets differ in their formation compared to smaller planets?",
+    "answers": [
+      {
+        "text": "They are born in chaotic environments with non-circular orbits.",
+        "correct": true
+      },
+      {
+        "text": "They form similarly to small planets with circular orbits.",
+        "correct": false
+      },
+      {
+        "text": "They do not form around metal-rich stars.",
+        "correct": false
+      },
+      {
+        "text": "They have no relationship with their orbital shapes.",
         "correct": false
       }
     ]
@@ -3237,33 +3291,6 @@
     ]
   },
   {
-    "title": " Borderlands 4: Release date, trailers & everything we know ",
-    "content": "Borderlands 4 is set for release on September 23, 2025, transitioning the series to the new planet Kairos, leaving behind Pandora. Developer Gearbox has kept many story details under wraps, but players can expect familiar gameplay with enhanced combat and movement mechanics. The game will feature new vault hunters and menacing enemies, promising a dynamic RPG experience akin to previous entries. Trailers have revealed some gameplay elements and the game's aesthetic will retain its signature cel-shaded style.",
-    "link": "https://www.space.com/entertainment/space-games-toys/borderlands-4-release-date-trailers-and-everything-we-know",
-    "cat": "tech",
-    "positivity": 8,
-    "importance": 7,
-    "question": "When is Borderlands 4 scheduled to be released?",
-    "answers": [
-      {
-        "text": "September 23, 2025",
-        "correct": true
-      },
-      {
-        "text": "December 12, 2025",
-        "correct": false
-      },
-      {
-        "text": "August 20, 2025",
-        "correct": false
-      },
-      {
-        "text": "March 19, 2025",
-        "correct": false
-      }
-    ]
-  },
-  {
     "title": "Google now lets kids use Google Wallet for in-store payments in select countries",
     "content": "Google has announced that children in select countries, including the U.S., U.K., Australia, Spain, and Poland, can now use Google Wallet for in-store payments with parental supervision. Parents can add payment methods and monitor transactions through the Family Link app. This feature allows kids to also access digital passes, but online payments remain restricted. This move positions Google to compete with Apple, which already offers similar capabilities through Apple Pay for children.",
     "link": "https://techcrunch.com/2025/03/19/google-now-lets-kids-use-google-wallet-for-in-store-payments-in-select-countries/",
@@ -3286,6 +3313,33 @@
       },
       {
         "text": "Japan, South Korea, Singapore, Thailand",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "title": " Borderlands 4: Release date, trailers & everything we know ",
+    "content": "Borderlands 4 is set for release on September 23, 2025, transitioning the series to the new planet Kairos, leaving behind Pandora. Developer Gearbox has kept many story details under wraps, but players can expect familiar gameplay with enhanced combat and movement mechanics. The game will feature new vault hunters and menacing enemies, promising a dynamic RPG experience akin to previous entries. Trailers have revealed some gameplay elements and the game's aesthetic will retain its signature cel-shaded style.",
+    "link": "https://www.space.com/entertainment/space-games-toys/borderlands-4-release-date-trailers-and-everything-we-know",
+    "cat": "tech",
+    "positivity": 8,
+    "importance": 7,
+    "question": "When is Borderlands 4 scheduled to be released?",
+    "answers": [
+      {
+        "text": "September 23, 2025",
+        "correct": true
+      },
+      {
+        "text": "December 12, 2025",
+        "correct": false
+      },
+      {
+        "text": "August 20, 2025",
+        "correct": false
+      },
+      {
+        "text": "March 19, 2025",
         "correct": false
       }
     ]
