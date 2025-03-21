@@ -81,6 +81,64 @@
     // Example JSON array with news objects
     const newsData = [
   {
+    "title": "'Soulless piece of crap': Angry protester jumps on stage during Dem rep's town hall",
+    "content": "During a town hall meeting in Downers Grove, Illinois, Rep. Sean Casten faced significant disruption from protesters, including a pro-Palestinian individual who labeled him a 'soulless piece of crap' for his stance on funding related to Israel and Gaza. The event was interrupted multiple times, leading to its eventual shutdown by police. This incident reflects a broader trend of contentious protests at congressional town halls across the country, affecting various lawmakers from both parties.",
+    "link": "https://www.foxnews.com/politics/soulless-piece-crap-angry-protester-jumps-stage-during-dem-reps-town-hall",
+    "cat": "politics",
+    "positivity": 2,
+    "importance": 7,
+    "question": "What happened during Rep. Sean Casten's town hall meeting?",
+    "answers": [
+      {
+        "text": "It was disrupted by protesters who yelled at him.",
+        "correct": true
+      },
+      {
+        "text": "He received praise from attendees.",
+        "correct": false
+      },
+      {
+        "text": "He announced a new policy on immigration.",
+        "correct": false
+      },
+      {
+        "text": "The event was held in silence.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "title": "Death on the Chazy River | Sunday on 60 Minutes",
+    "content": "This Sunday on 60 Minutes, Cecilia Vega investigates the ongoing issue of human smuggling across the U.S.-Canada border. The report features an interview with a self-identified member of the Sinaloa cartel, who discusses the persistent methods used to circumvent border security measures. The segment sheds light on the complexities of immigration and smuggling operations despite increasing efforts to enforce barriers.",
+    "link": "https://www.cbsnews.com/video/death-on-the-chazy-river-sunday-on-60-minutes/",
+    "cat": "politics",
+    "positivity": 3,
+    "importance": 7,
+    "question": "What is the main focus of the 60 Minutes segment on the Chazy River?",
+    "answers": [
+      {
+        "text": "Human smuggling at the U.S.-Canada border",
+        "correct": true
+      },
+      {
+        "text": "Environmental issues in the Chazy River",
+        "correct": false
+      },
+      {
+        "text": "Local tourism in the Chazy area",
+        "correct": false
+      },
+      {
+        "text": "Drug trafficking routes in the U.S.",
+        "correct": false
+      },
+      {
+        "text": "Fishing regulations in the Chazy River",
+        "correct": false
+      }
+    ]
+  },
+  {
     "title": "Tim Walz cheers Tesla stock tumble, but Minnesota state employees' pension owns over 1M shares",
     "content": "Minnesota Governor Tim Walz has made light of Tesla's declining stock value, joking that he monitors the stock for a mood boost during a recent town hall in Wisconsin. However, his comments are controversial as the Minnesota state employees' pension fund owns over 1.6 million shares of Tesla, potentially harming his constituents' financial interests. Critics, including investor Kevin O'Leary, have called Walz's remarks 'beyond stupid' for failing to acknowledge the impact of the stock's performance on state employees' pensions.",
     "link": "https://www.foxnews.com/politics/tim-walz-cheers-tesla-stock-tumble-mn-state-employees-pension-owns-over-1m-shares",
@@ -857,33 +915,6 @@
     ]
   },
   {
-    "title": "Startups Weekly: Wiz’s bet paid off in an M&A-rich week",
-    "content": "In a notable week for mergers and acquisitions, Wiz's decision to reject Google’s initial $23 billion offer paid off as Google agreed to purchase the cloud security startup for a record $32 billion. Other significant deals included SoftBank's acquisition of Ampere Computing for $6.5 billion and Munich Re's purchase of Next Insurance for $2.6 billion. The week also saw new startups emerge, with a focus on AI and e-commerce, signaling a positive trend in the startup ecosystem.",
-    "link": "https://techcrunch.com/2025/03/21/startups-weekly-wizs-bet-paid-off-in-an-ma-rich-week/",
-    "cat": "tech",
-    "positivity": 8,
-    "importance": 9,
-    "question": "What major acquisition did Wiz secure this week?",
-    "answers": [
-      {
-        "text": "Google acquired Wiz for $32 billion",
-        "correct": true
-      },
-      {
-        "text": "Wiz was acquired by Amazon",
-        "correct": false
-      },
-      {
-        "text": "Wiz merged with Ampere Computing",
-        "correct": false
-      },
-      {
-        "text": "Wiz was bought by SoftBank",
-        "correct": false
-      }
-    ]
-  },
-  {
     "title": "TechCrunch Mobility: Inside Waymo’s deal with SFO, Elon’s moment of truth, and BYD’s breakthrough",
     "content": "Waymo has secured a deal with the San Francisco Airport Commission to map the airport's roadways, which could pave the way for future robotaxi services. Under the agreement, Waymo will share data on its vehicles' activities at the airport and will not use autonomous vehicles for commercial goods transport. Meanwhile, Elon Musk faces criticism regarding his involvement in the government while Tesla deals with ongoing issues, particularly with the Cybertruck model. Additionally, BYD has introduced a new EV charging technology that could significantly outperform current standards.",
     "link": "https://techcrunch.com/2025/03/21/techcrunch-mobility-inside-waymos-deal-with-sfo-elons-moment-of-truth-and-byds-breakthrough/",
@@ -906,6 +937,33 @@
       },
       {
         "text": "Partnering with Tesla for EV technology",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "title": "Startups Weekly: Wiz’s bet paid off in an M&A-rich week",
+    "content": "In a notable week for mergers and acquisitions, Wiz's decision to reject Google’s initial $23 billion offer paid off as Google agreed to purchase the cloud security startup for a record $32 billion. Other significant deals included SoftBank's acquisition of Ampere Computing for $6.5 billion and Munich Re's purchase of Next Insurance for $2.6 billion. The week also saw new startups emerge, with a focus on AI and e-commerce, signaling a positive trend in the startup ecosystem.",
+    "link": "https://techcrunch.com/2025/03/21/startups-weekly-wizs-bet-paid-off-in-an-ma-rich-week/",
+    "cat": "tech",
+    "positivity": 8,
+    "importance": 9,
+    "question": "What major acquisition did Wiz secure this week?",
+    "answers": [
+      {
+        "text": "Google acquired Wiz for $32 billion",
+        "correct": true
+      },
+      {
+        "text": "Wiz was acquired by Amazon",
+        "correct": false
+      },
+      {
+        "text": "Wiz merged with Ampere Computing",
+        "correct": false
+      },
+      {
+        "text": "Wiz was bought by SoftBank",
         "correct": false
       }
     ]
@@ -3610,33 +3668,6 @@
       },
       {
         "text": "Seals",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "title": "Duke's Cooper Flagg set to play in first round of NCAA Tournament",
-    "content": "Duke's star player Cooper Flagg is set to return for the first round of the NCAA Tournament after recovering from an ankle injury sustained during the ACC quarterfinals. Flagg, who has been a key player for the Blue Devils, has no injury designation and is ready to face Mount St. Mary’s. His return is crucial for Duke's national title aspirations, and both he and head coach Jon Scheyer are optimistic about his performance following a successful recovery process.",
-    "link": "https://www.foxnews.com/sports/dukes-cooper-flagg-set-play-first-round-ncaa-tournament",
-    "cat": "sport",
-    "positivity": 9,
-    "importance": 8,
-    "question": "Will Cooper Flagg play in the first round of the NCAA Tournament?",
-    "answers": [
-      {
-        "text": "Yes, he is set to play.",
-        "correct": true
-      },
-      {
-        "text": "No, he is still injured.",
-        "correct": false
-      },
-      {
-        "text": "He is unsure about his return.",
-        "correct": false
-      },
-      {
-        "text": "He will play only if needed.",
         "correct": false
       }
     ]
