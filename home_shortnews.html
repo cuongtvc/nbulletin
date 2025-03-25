@@ -81,6 +81,33 @@
     // Example JSON array with news objects
     const newsData = [
   {
+    "title": "Man and 2 kids found alive after Alaska plane crash",
+    "content": "A man and two children were found alive after their small plane crashed on Alaska's Kenai Peninsula. The group, who suffered non-life-threatening injuries, was located near the wreckage of their Piper PA-12 Super Cruiser by a local pilot who had joined the search. Authorities confirmed they were reported overdue the previous night, and a community effort contributed to their safe recovery.",
+    "link": "https://www.cbsnews.com/news/alaska-plane-crash-man-2-juveniles-found-alive/",
+    "cat": "others",
+    "positivity": 9,
+    "importance": 8,
+    "question": "What happened to the man and two children in Alaska?",
+    "answers": [
+      {
+        "text": "They were found alive after a plane crash.",
+        "correct": true
+      },
+      {
+        "text": "They were missing for several days.",
+        "correct": false
+      },
+      {
+        "text": "They were rescued by a fishing boat.",
+        "correct": false
+      },
+      {
+        "text": "They suffered serious injuries in the crash.",
+        "correct": false
+      }
+    ]
+  },
+  {
     "title": "Senate committee to vote on Dr. Oz's nomination to run the Centers for Medicare and Medicaid Services",
     "content": "The Senate Finance Committee is set to vote on Dr. Mehmet Oz's nomination to lead the Centers for Medicare and Medicaid Services (CMS), following two hearings where his qualifications and views were scrutinized. If confirmed, Dr. Oz would oversee nearly $1.5 trillion in federal healthcare spending, impacting Medicare, which serves around 65 million seniors, and Medicaid, which assists about 72 million low-income individuals. Oz, a former heart surgeon and television personality, previously ran for Senate but lost in 2022.",
     "link": "https://www.foxnews.com/politics/senate-committee-vote-dr-ozs-nomination-run-medicare-medicaid-services",
@@ -166,32 +193,28 @@
     ]
   },
   {
-    "title": "Plural’s platform allows enterprises to manage their Kubernetes clusters in one place",
-    "content": "Plural has developed a platform that allows enterprises to manage their Kubernetes clusters from a single dashboard, addressing the complexities that arise from managing multiple clusters. Founded by Sam Weaver and Michael Guarino, the platform aims to streamline operations, optimize cluster efficiency, and reduce operational overhead by up to 90%. It operates on a GitOps model and is self-hosted, ensuring that enterprises maintain full control without sending data to external servers. Recently, Plural raised $6 million in seed funding to enhance its product capabilities and expand beyond Kubernetes management.",
-    "link": "https://techcrunch.com/2025/03/25/plurals-platform-allows-enterprises-to-manage-their-kubernetes-clusters-in-one-place/",
+    "title": "Apple Music is integrating with music tools to allow DJs to create mixes using its catalog",
+    "content": "Apple Music is expanding its platform by integrating with various DJ software and hardware tools, allowing DJs to create mixes using its extensive music catalog of over 100 million songs. This integration includes partnerships with popular tools such as Algoriddim's djay Pro, Serato, and Denon DJ. Additionally, Apple Music is launching a new DJ category page featuring editorial playlists and mixes aimed at inspiring both professional and aspiring DJs. This move reflects Apple's commitment to supporting the DJ community and enhancing the creative process for music mixing.",
+    "link": "https://techcrunch.com/2025/03/25/apple-3/",
     "cat": "tech",
-    "positivity": 9,
-    "importance": 8,
-    "question": "What does Plural's platform help enterprises manage?",
+    "positivity": 8,
+    "importance": 7,
+    "question": "How is Apple Music supporting DJs with its latest integration?",
     "answers": [
       {
-        "text": "Kubernetes clusters",
+        "text": "By integrating with DJ tools to create mixes",
         "correct": true
       },
       {
-        "text": "Database systems",
+        "text": "By offering free subscriptions to all users",
         "correct": false
       },
       {
-        "text": "Web servers",
+        "text": "By launching an exclusive DJ hardware",
         "correct": false
       },
       {
-        "text": "Cloud storage solutions",
-        "correct": false
-      },
-      {
-        "text": "AI applications",
+        "text": "By limiting access to professional DJs only",
         "correct": false
       }
     ]
@@ -224,28 +247,32 @@
     ]
   },
   {
-    "title": "Apple Music is integrating with music tools to allow DJs to create mixes using its catalog",
-    "content": "Apple Music is expanding its platform by integrating with various DJ software and hardware tools, allowing DJs to create mixes using its extensive music catalog of over 100 million songs. This integration includes partnerships with popular tools such as Algoriddim's djay Pro, Serato, and Denon DJ. Additionally, Apple Music is launching a new DJ category page featuring editorial playlists and mixes aimed at inspiring both professional and aspiring DJs. This move reflects Apple's commitment to supporting the DJ community and enhancing the creative process for music mixing.",
-    "link": "https://techcrunch.com/2025/03/25/apple-3/",
+    "title": "Plural’s platform allows enterprises to manage their Kubernetes clusters in one place",
+    "content": "Plural has developed a platform that allows enterprises to manage their Kubernetes clusters from a single dashboard, addressing the complexities that arise from managing multiple clusters. Founded by Sam Weaver and Michael Guarino, the platform aims to streamline operations, optimize cluster efficiency, and reduce operational overhead by up to 90%. It operates on a GitOps model and is self-hosted, ensuring that enterprises maintain full control without sending data to external servers. Recently, Plural raised $6 million in seed funding to enhance its product capabilities and expand beyond Kubernetes management.",
+    "link": "https://techcrunch.com/2025/03/25/plurals-platform-allows-enterprises-to-manage-their-kubernetes-clusters-in-one-place/",
     "cat": "tech",
-    "positivity": 8,
-    "importance": 7,
-    "question": "How is Apple Music supporting DJs with its latest integration?",
+    "positivity": 9,
+    "importance": 8,
+    "question": "What does Plural's platform help enterprises manage?",
     "answers": [
       {
-        "text": "By integrating with DJ tools to create mixes",
+        "text": "Kubernetes clusters",
         "correct": true
       },
       {
-        "text": "By offering free subscriptions to all users",
+        "text": "Database systems",
         "correct": false
       },
       {
-        "text": "By launching an exclusive DJ hardware",
+        "text": "Web servers",
         "correct": false
       },
       {
-        "text": "By limiting access to professional DJs only",
+        "text": "Cloud storage solutions",
+        "correct": false
+      },
+      {
+        "text": "AI applications",
         "correct": false
       }
     ]
@@ -3693,33 +3720,6 @@
       },
       {
         "text": "A planet and a moon",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "title": "Apple is bringing lossless audio and low-latency audio to AirPods Max",
-    "content": "Apple has announced that it will be introducing lossless audio and ultra-low latency audio capabilities to its AirPods Max when connected via USB-C. This update, set for release in April, will allow users to enjoy 24-bit, 48 kHz lossless audio and improved audio experiences for music production and gaming. The new features will specifically enhance the quality of audio playback and recording for both casual listeners and professional users, with access to over 100 million songs in lossless audio through Apple Music.",
-    "link": "https://techcrunch.com/2025/03/24/apple-is-bringing-lossless-audio-and-low-latency-audio-to-airpods-max/",
-    "cat": "tech",
-    "positivity": 9,
-    "importance": 8,
-    "question": "What new audio features are coming to AirPods Max?",
-    "answers": [
-      {
-        "text": "Lossless audio and ultra-low latency audio",
-        "correct": true
-      },
-      {
-        "text": "Noise cancellation and voice control",
-        "correct": false
-      },
-      {
-        "text": "Wireless charging and Bluetooth 5.2",
-        "correct": false
-      },
-      {
-        "text": "Enhanced battery life and color options",
         "correct": false
       }
     ]
