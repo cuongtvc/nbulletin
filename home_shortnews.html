@@ -81,6 +81,33 @@
     // Example JSON array with news objects
     const newsData = [
   {
+    "title": "3 dead, more than 200 rescued in South Texas after flooding",
+    "content": "Severe flooding in South Texas resulted in the deaths of at least three individuals and led to over 200 rescues of residents trapped in their homes and vehicles. Heavy rain, with some areas receiving up to 21 inches, caused significant damage and prompted local disaster declarations in Hidalgo and Cameron counties. Emergency services continue to respond to ongoing flooding issues, with many schools closed and shelters opened for affected residents. The National Weather Service has issued flood warnings as recovery efforts are underway.",
+    "link": "https://www.cbsnews.com/news/south-texas-border-flooding-deaths/",
+    "cat": "others",
+    "positivity": 2,
+    "importance": 9,
+    "question": "What were the consequences of the severe flooding in South Texas?",
+    "answers": [
+      {
+        "text": "Three people died and over 200 were rescued.",
+        "correct": true
+      },
+      {
+        "text": "Only minor property damage occurred.",
+        "correct": false
+      },
+      {
+        "text": "No one was affected by the flooding.",
+        "correct": false
+      },
+      {
+        "text": "The flooding mainly affected farmers.",
+        "correct": false
+      }
+    ]
+  },
+  {
     "title": "Bill Belichick, girlfriend Jordon Hudson team up to mock Falcons over infamous Super Bowl loss",
     "content": "Bill Belichick, the former head coach of the New England Patriots, and his girlfriend Jordon Hudson made light of the Atlanta Falcons' infamous Super Bowl loss during an Instagram post. The couple referenced the Patriots' incredible comeback from a 25-point deficit to win Super Bowl LI, where they famously overcame a score of 28-3. Hudson wore a shirt saying 'Champions Super Bowl LI Falcons' while celebrating '3-28,' a date that holds significance for Patriots fans as a reminder of this historic game.",
     "link": "https://www.foxnews.com/sports/bill-belichick-girlfriend-jordon-hudson-team-up-mock-falcons-over-infamous-super-bowl-loss",
@@ -637,33 +664,6 @@
     ]
   },
   {
-    "title": "Adapt or Die",
-    "content": "The article discusses the impact of climate change on biodiversity, highlighting that the cycles causing mass extinctions are becoming more frequent and intense. It emphasizes that only species capable of adapting to these rapid environmental changes will survive, while others face extinction. CBS Reports explores the Galapagos Islands, known for their unique ecosystems, to investigate if nature can effectively adjust to the challenges posed by climate change.",
-    "link": "https://www.cbsnews.com/video/adapt-or-die/",
-    "cat": "environment",
-    "positivity": 5,
-    "importance": 8,
-    "question": "How are species adapting to climate change?",
-    "answers": [
-      {
-        "text": "Only adaptable species survive while others face extinction.",
-        "correct": true
-      },
-      {
-        "text": "All species are equally affected by climate change.",
-        "correct": false
-      },
-      {
-        "text": "Species are thriving without any adaptations.",
-        "correct": false
-      },
-      {
-        "text": "Climate change has no impact on biodiversity.",
-        "correct": false
-      }
-    ]
-  },
-  {
     "title": "Families in crisis: Illegal immigration",
     "content": "Central Americans are facing a crisis as record numbers migrate to the U.S., driven by a longstanding cycle of violence and poverty. The report follows a single father from El Salvador, deported in 2009, and his son, illustrating the difficulties of deportation and the temptation to remigrate. This ongoing situation highlights the complexities and challenges of illegal immigration, with no apparent resolution in sight.",
     "link": "https://www.cbsnews.com/video/families-in-crisis-illegal-immigration/",
@@ -691,28 +691,28 @@
     ]
   },
   {
-    "title": "Sex. Consent. Education.",
-    "content": "The article discusses the ongoing debate around sex education in the United States, highlighting that only 24 states mandate sex ed and that the curriculum varies significantly across states. Experts express concern that this inconsistency undermines students' understanding of important topics such as consent and sexual assault prevention. The piece includes insights from advocates who are striving for more comprehensive sex education in classrooms.",
-    "link": "https://www.cbsnews.com/video/sex-consent-and-education/",
-    "cat": "lifestyle",
-    "positivity": 6,
+    "title": "Adapt or Die",
+    "content": "The article discusses the impact of climate change on biodiversity, highlighting that the cycles causing mass extinctions are becoming more frequent and intense. It emphasizes that only species capable of adapting to these rapid environmental changes will survive, while others face extinction. CBS Reports explores the Galapagos Islands, known for their unique ecosystems, to investigate if nature can effectively adjust to the challenges posed by climate change.",
+    "link": "https://www.cbsnews.com/video/adapt-or-die/",
+    "cat": "environment",
+    "positivity": 5,
     "importance": 8,
-    "question": "What are experts concerned about regarding sex education in the U.S.?",
+    "question": "How are species adapting to climate change?",
     "answers": [
       {
-        "text": "Inconsistency in teaching consent and sexual assault prevention",
+        "text": "Only adaptable species survive while others face extinction.",
         "correct": true
       },
       {
-        "text": "Lack of interest from students",
+        "text": "All species are equally affected by climate change.",
         "correct": false
       },
       {
-        "text": "High costs of implementing sex education",
+        "text": "Species are thriving without any adaptations.",
         "correct": false
       },
       {
-        "text": "Insufficient number of teachers qualified to teach sex ed",
+        "text": "Climate change has no impact on biodiversity.",
         "correct": false
       }
     ]
@@ -740,6 +740,33 @@
       },
       {
         "text": "It is making small towns more attractive to tourists.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "title": "Sex. Consent. Education.",
+    "content": "The article discusses the ongoing debate around sex education in the United States, highlighting that only 24 states mandate sex ed and that the curriculum varies significantly across states. Experts express concern that this inconsistency undermines students' understanding of important topics such as consent and sexual assault prevention. The piece includes insights from advocates who are striving for more comprehensive sex education in classrooms.",
+    "link": "https://www.cbsnews.com/video/sex-consent-and-education/",
+    "cat": "lifestyle",
+    "positivity": 6,
+    "importance": 8,
+    "question": "What are experts concerned about regarding sex education in the U.S.?",
+    "answers": [
+      {
+        "text": "Inconsistency in teaching consent and sexual assault prevention",
+        "correct": true
+      },
+      {
+        "text": "Lack of interest from students",
+        "correct": false
+      },
+      {
+        "text": "High costs of implementing sex education",
+        "correct": false
+      },
+      {
+        "text": "Insufficient number of teachers qualified to teach sex ed",
         "correct": false
       }
     ]
@@ -938,6 +965,37 @@
     ]
   },
   {
+    "title": "North Korea: The art of surviving sanctions",
+    "content": "North Korea has developed various strategies to survive international sanctions, primarily focusing on cultural exports and domestic propaganda. The Kim regime has adapted by fostering a narrative of self-reliance and resilience, leveraging art and media to maintain internal support and distract from economic hardships. This cultural approach not only helps the regime sustain its grip on power but also attempts to project an image of strength externally.",
+    "link": "https://www.cbsnews.com/video/north-korea-the-art-of-surviving-sanctions/",
+    "cat": "politics",
+    "positivity": 4,
+    "importance": 7,
+    "question": "How does North Korea manage to survive despite international sanctions?",
+    "answers": [
+      {
+        "text": "By leveraging cultural exports and domestic propaganda.",
+        "correct": true
+      },
+      {
+        "text": "By increasing its military capabilities.",
+        "correct": false
+      },
+      {
+        "text": "By seeking aid from neighboring countries.",
+        "correct": false
+      },
+      {
+        "text": "By completely isolating itself from the world.",
+        "correct": false
+      },
+      {
+        "text": "By changing its government leadership.",
+        "correct": false
+      }
+    ]
+  },
+  {
     "title": "A climate reckoning in the heartland",
     "content": "A historic flood in March 2019 devastated much of America's heartland, leaving grain farmers struggling to recover. In addition to existing challenges from the Chinese trade war, these farmers must now confront the impacts of climate change on agriculture. The CBS Reports documentary showcases farmers in Nebraska who are adopting innovative practices aimed at reversing climate change effects and ensuring their farming legacies are passed down to future generations.",
     "link": "https://www.cbsnews.com/video/a-climate-reckoning-in-the-heartland/",
@@ -987,37 +1045,6 @@
       },
       {
         "text": "Advocating for environmental policies",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "title": "North Korea: The art of surviving sanctions",
-    "content": "North Korea has developed various strategies to survive international sanctions, primarily focusing on cultural exports and domestic propaganda. The Kim regime has adapted by fostering a narrative of self-reliance and resilience, leveraging art and media to maintain internal support and distract from economic hardships. This cultural approach not only helps the regime sustain its grip on power but also attempts to project an image of strength externally.",
-    "link": "https://www.cbsnews.com/video/north-korea-the-art-of-surviving-sanctions/",
-    "cat": "politics",
-    "positivity": 4,
-    "importance": 7,
-    "question": "How does North Korea manage to survive despite international sanctions?",
-    "answers": [
-      {
-        "text": "By leveraging cultural exports and domestic propaganda.",
-        "correct": true
-      },
-      {
-        "text": "By increasing its military capabilities.",
-        "correct": false
-      },
-      {
-        "text": "By seeking aid from neighboring countries.",
-        "correct": false
-      },
-      {
-        "text": "By completely isolating itself from the world.",
-        "correct": false
-      },
-      {
-        "text": "By changing its government leadership.",
         "correct": false
       }
     ]
@@ -1676,6 +1703,33 @@
     ]
   },
   {
+    "title": "CBS Reports presents \"Reverb | Gun Fight, Part One\"",
+    "content": "In the first episode of the two-part documentary \"Reverb | Gun Fight, Part One,\" CBS Reports investigates the armed resistance to new gun laws in the United States. The documentary highlights how mass shootings in Virginia have sparked a movement advocating for stricter gun regulations, while certain counties refuse to enforce laws they believe violate constitutional rights. This exploration sheds light on the ongoing conflict between gun control advocates and those defending their Second Amendment rights.",
+    "link": "https://www.cbsnews.com/video/cbs-reports-presents-reverb-gun-fight-part-one/",
+    "cat": "politics",
+    "positivity": 4,
+    "importance": 7,
+    "question": "What does CBS Reports' \"Reverb | Gun Fight, Part One\" focus on?",
+    "answers": [
+      {
+        "text": "The backlash to new gun laws",
+        "correct": true
+      },
+      {
+        "text": "The benefits of gun ownership",
+        "correct": false
+      },
+      {
+        "text": "The history of gun legislation",
+        "correct": false
+      },
+      {
+        "text": "The impact of mass media on gun culture",
+        "correct": false
+      }
+    ]
+  },
+  {
     "title": "CBS Reports presents \"Speaking Frankly: Child Marriage\"",
     "content": "The CBS Reports segment \"Speaking Frankly: Child Marriage\" discusses the ongoing issue of child marriage in the United States, highlighting that Delaware and New Jersey have banned marriage under the age of 18 without exceptions as of 2018. However, many states still permit minors to marry, and advocates face unexpected opposition when trying to change these laws. This issue has sparked debate across the political spectrum, as efforts to reform child marriage laws continue.",
     "link": "https://www.cbsnews.com/video/cbs-reports-presents-speaking-frankly-child-marriage/",
@@ -1725,33 +1779,6 @@
       },
       {
         "text": "They work in a completely tip-free environment.",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "title": "CBS Reports presents \"Reverb | Gun Fight, Part One\"",
-    "content": "In the first episode of the two-part documentary \"Reverb | Gun Fight, Part One,\" CBS Reports investigates the armed resistance to new gun laws in the United States. The documentary highlights how mass shootings in Virginia have sparked a movement advocating for stricter gun regulations, while certain counties refuse to enforce laws they believe violate constitutional rights. This exploration sheds light on the ongoing conflict between gun control advocates and those defending their Second Amendment rights.",
-    "link": "https://www.cbsnews.com/video/cbs-reports-presents-reverb-gun-fight-part-one/",
-    "cat": "politics",
-    "positivity": 4,
-    "importance": 7,
-    "question": "What does CBS Reports' \"Reverb | Gun Fight, Part One\" focus on?",
-    "answers": [
-      {
-        "text": "The backlash to new gun laws",
-        "correct": true
-      },
-      {
-        "text": "The benefits of gun ownership",
-        "correct": false
-      },
-      {
-        "text": "The history of gun legislation",
-        "correct": false
-      },
-      {
-        "text": "The impact of mass media on gun culture",
         "correct": false
       }
     ]
@@ -1838,6 +1865,33 @@
     ]
   },
   {
+    "title": "Extremists Next Door",
+    "content": "The article \"Extremists Next Door\" discusses the rise of right-wing extremism on gaming and anonymous social media platforms, which have become hotspots for radicalization among disenchanted young white men. These platforms normalize hate speech and create environments where vulnerable individuals can be easily influenced. Efforts by parents, activists, and former extremists to combat this trend are ongoing, but the challenge is significant as extremist rhetoric increasingly infiltrates mainstream platforms.",
+    "link": "https://www.cbsnews.com/video/extremists-next-door/",
+    "cat": "politics",
+    "positivity": 3,
+    "importance": 8,
+    "question": "How are gaming and social media platforms contributing to right-wing extremism?",
+    "answers": [
+      {
+        "text": "They are breeding grounds for radicalization.",
+        "correct": true
+      },
+      {
+        "text": "They promote healthy social interactions.",
+        "correct": false
+      },
+      {
+        "text": "They help in spreading positive messages.",
+        "correct": false
+      },
+      {
+        "text": "They decrease online engagement.",
+        "correct": false
+      }
+    ]
+  },
+  {
     "title": "Complicit: The Amazon Fires",
     "content": "The CBS Reports documentary \"Complicit: The Amazon Fires\" examines the devastating fires that swept through Brazil's Amazon rainforest in the summer of 2019. It highlights the global outcry against Brazilian President Jair Bolsonaro, who dismissed the concerns as fake news aimed at hindering Brazil's economic growth. The documentary, led by Adam Yamaguchi, investigates the root causes of deforestation in the Amazon and uncovers unexpected links to the United States.",
     "link": "https://www.cbsnews.com/video/complicit-the-amazon-fires/",
@@ -1887,33 +1941,6 @@
       },
       {
         "text": "The medical advancements in reproductive health.",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "title": "Extremists Next Door",
-    "content": "The article \"Extremists Next Door\" discusses the rise of right-wing extremism on gaming and anonymous social media platforms, which have become hotspots for radicalization among disenchanted young white men. These platforms normalize hate speech and create environments where vulnerable individuals can be easily influenced. Efforts by parents, activists, and former extremists to combat this trend are ongoing, but the challenge is significant as extremist rhetoric increasingly infiltrates mainstream platforms.",
-    "link": "https://www.cbsnews.com/video/extremists-next-door/",
-    "cat": "politics",
-    "positivity": 3,
-    "importance": 8,
-    "question": "How are gaming and social media platforms contributing to right-wing extremism?",
-    "answers": [
-      {
-        "text": "They are breeding grounds for radicalization.",
-        "correct": true
-      },
-      {
-        "text": "They promote healthy social interactions.",
-        "correct": false
-      },
-      {
-        "text": "They help in spreading positive messages.",
-        "correct": false
-      },
-      {
-        "text": "They decrease online engagement.",
         "correct": false
       }
     ]
@@ -2143,33 +2170,6 @@
     ]
   },
   {
-    "title": "Salman Rushdie: \"Knife\" | 60 Minutes Archive",
-    "content": "In his first television interview after the attack on his life, Salman Rushdie discussed his experience and coping mechanism, which involved writing about it in his new book, \"Knife.\" The interview took place with Anderson Cooper in 2024, where Rushdie shared insights on the emotional and psychological impact of the incident. His reflections highlight both the personal and broader implications of violence against writers and freedom of expression.",
-    "link": "https://www.cbsnews.com/video/salman-rushdie-knife-60-minutes-archive/",
-    "cat": "culture",
-    "positivity": 8,
-    "importance": 9,
-    "question": "What did Salman Rushdie discuss in his interview about the attack on his life?",
-    "answers": [
-      {
-        "text": "His new book \"Knife\" and his coping mechanisms after the attack.",
-        "correct": true
-      },
-      {
-        "text": "The political implications of his writings.",
-        "correct": false
-      },
-      {
-        "text": "His views on current world leaders.",
-        "correct": false
-      },
-      {
-        "text": "The process of writing fiction in general.",
-        "correct": false
-      }
-    ]
-  },
-  {
     "title": "Trayvon Martin: 10 Years Later",
     "content": "Ten years after Trayvon Martin's death, his story continues to fuel a movement for justice. CBS Reports features an interview with Martin's mother, Sybrina Fulton, and discusses the impact of his death, the acquittal of George Zimmerman, and the evolution of the Black Lives Matter movement. The special highlights the ongoing demands for justice and the legacy of Martin's life.",
     "link": "https://www.cbsnews.com/video/trayvon-martin-10-years-later/",
@@ -2197,28 +2197,28 @@
     ]
   },
   {
-    "title": "CBS Reports | Ghost Light: The Year Broadway Went Dark",
-    "content": "The CBS Reports documentary titled \"Ghost Light: The Year Broadway Went Dark\" explores the impact of the 18-month shutdown of Broadway due to the pandemic. It highlights how performers and crew members adapted to the crisis, finding new ways to survive and stay connected with their art. The documentary captures the struggles and resilience of the theater community during this unprecedented time.",
-    "link": "https://www.cbsnews.com/video/cbs-reports-ghost-light-the-year-broadway-went-dark/",
+    "title": "Salman Rushdie: \"Knife\" | 60 Minutes Archive",
+    "content": "In his first television interview after the attack on his life, Salman Rushdie discussed his experience and coping mechanism, which involved writing about it in his new book, \"Knife.\" The interview took place with Anderson Cooper in 2024, where Rushdie shared insights on the emotional and psychological impact of the incident. His reflections highlight both the personal and broader implications of violence against writers and freedom of expression.",
+    "link": "https://www.cbsnews.com/video/salman-rushdie-knife-60-minutes-archive/",
     "cat": "culture",
-    "positivity": 6,
-    "importance": 8,
-    "question": "What does the CBS documentary 'Ghost Light: The Year Broadway Went Dark' focus on?",
+    "positivity": 8,
+    "importance": 9,
+    "question": "What did Salman Rushdie discuss in his interview about the attack on his life?",
     "answers": [
       {
-        "text": "The impact of Broadway's shutdown during the pandemic",
+        "text": "His new book \"Knife\" and his coping mechanisms after the attack.",
         "correct": true
       },
       {
-        "text": "The financial success of Broadway shows",
+        "text": "The political implications of his writings.",
         "correct": false
       },
       {
-        "text": "The history of Broadway theaters",
+        "text": "His views on current world leaders.",
         "correct": false
       },
       {
-        "text": "The rise of streaming services for theater productions",
+        "text": "The process of writing fiction in general.",
         "correct": false
       }
     ]
@@ -2250,6 +2250,33 @@
       },
       {
         "text": "Historical landmarks in the Delta",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "title": "CBS Reports | Ghost Light: The Year Broadway Went Dark",
+    "content": "The CBS Reports documentary titled \"Ghost Light: The Year Broadway Went Dark\" explores the impact of the 18-month shutdown of Broadway due to the pandemic. It highlights how performers and crew members adapted to the crisis, finding new ways to survive and stay connected with their art. The documentary captures the struggles and resilience of the theater community during this unprecedented time.",
+    "link": "https://www.cbsnews.com/video/cbs-reports-ghost-light-the-year-broadway-went-dark/",
+    "cat": "culture",
+    "positivity": 6,
+    "importance": 8,
+    "question": "What does the CBS documentary 'Ghost Light: The Year Broadway Went Dark' focus on?",
+    "answers": [
+      {
+        "text": "The impact of Broadway's shutdown during the pandemic",
+        "correct": true
+      },
+      {
+        "text": "The financial success of Broadway shows",
+        "correct": false
+      },
+      {
+        "text": "The history of Broadway theaters",
+        "correct": false
+      },
+      {
+        "text": "The rise of streaming services for theater productions",
         "correct": false
       }
     ]
@@ -3449,33 +3476,6 @@
     ]
   },
   {
-    "title": "Feb 21: CBS News 24/7, 1pm ET",
-    "content": "On February 21, CBS News 24/7 highlights two significant events: President Trump addressing a governors working session and a one-armed basketball player making history by scoring a basket in a women's Division III college game. Both stories reflect important moments in current U.S. affairs, showcasing political engagement and inspiring athletic achievements.",
-    "link": "https://www.cbsnews.com/video/022125-cbs-news-247-episode-2/",
-    "cat": "sports",
-    "positivity": 7,
-    "importance": 6,
-    "question": "What notable event occurred in women's Division III basketball on February 21?",
-    "answers": [
-      {
-        "text": "A one-armed player made history by scoring a basket.",
-        "correct": true
-      },
-      {
-        "text": "A team won the championship game.",
-        "correct": false
-      },
-      {
-        "text": "A new player was drafted into the league.",
-        "correct": false
-      },
-      {
-        "text": "A major rule change was implemented.",
-        "correct": false
-      }
-    ]
-  },
-  {
     "title": "Feb 21: CBS News 24/7, 10am ET",
     "content": "On February 21, CBS News 24/7 reported that Israeli Prime Minister Netanyahu has vowed to hold Hamas accountable for not returning the body of hostage Shiri Bibas. Additionally, the U.S. Navy is actively seeking to recruit a new generation of workers to aid in submarine construction. These developments highlight ongoing tensions in Middle Eastern politics and the U.S. military's efforts to bolster its workforce.",
     "link": "https://www.cbsnews.com/video/022125-cbs-news-247-episode-1/",
@@ -3498,6 +3498,33 @@
       },
       {
         "text": "Netanyahu called for a ceasefire with Hamas.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "title": "Feb 21: CBS News 24/7, 1pm ET",
+    "content": "On February 21, CBS News 24/7 highlights two significant events: President Trump addressing a governors working session and a one-armed basketball player making history by scoring a basket in a women's Division III college game. Both stories reflect important moments in current U.S. affairs, showcasing political engagement and inspiring athletic achievements.",
+    "link": "https://www.cbsnews.com/video/022125-cbs-news-247-episode-2/",
+    "cat": "sports",
+    "positivity": 7,
+    "importance": 6,
+    "question": "What notable event occurred in women's Division III basketball on February 21?",
+    "answers": [
+      {
+        "text": "A one-armed player made history by scoring a basket.",
+        "correct": true
+      },
+      {
+        "text": "A team won the championship game.",
+        "correct": false
+      },
+      {
+        "text": "A new player was drafted into the league.",
+        "correct": false
+      },
+      {
+        "text": "A major rule change was implemented.",
         "correct": false
       }
     ]
