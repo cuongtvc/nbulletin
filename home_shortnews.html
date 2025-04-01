@@ -81,6 +81,68 @@
     // Example JSON array with news objects
     const newsData = [
   {
+    "title": "4/1: CBS Mornings Plus",
+    "content": "On April 1, CBS Mornings Plus reported on a powerful weather system that has caused high winds and tornadoes across the country, resulting in damage and widespread power outages. The segment also featured a retrospective on April Fools' Day in news history. Additionally, viewers were provided updates on the Trump approval poll, car tariffs, and the ongoing Men's March Madness brackets and TV schedule.",
+    "link": "https://www.cbsnews.com/video/040125-cbs-mornings-plus/",
+    "cat": "others",
+    "positivity": 5,
+    "importance": 7,
+    "question": "What significant weather event was reported on CBS Mornings Plus on April 1?",
+    "answers": [
+      {
+        "text": "High winds and tornadoes",
+        "correct": true
+      },
+      {
+        "text": "Heavy snowfall",
+        "correct": false
+      },
+      {
+        "text": "Flooding",
+        "correct": false
+      },
+      {
+        "text": "Earthquake damage",
+        "correct": false
+      },
+      {
+        "text": "Hurricane warnings",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "title": "\"Flying Blind\" | 60 Minutes Archive",
+    "content": "In a segment from 60 Minutes, viewers were introduced to Jacob Smith, a 15-year-old freeride skier who is legally blind due to a brain tumor. Despite his visual impairment, Smith has excelled in skiing, showcasing his remarkable talent and determination. The report highlights his journey and achievements in the sport, inspiring others to overcome challenges.",
+    "link": "https://www.cbsnews.com/video/flying-blind-60-minutes-archive/",
+    "cat": "sport",
+    "positivity": 9,
+    "importance": 7,
+    "question": "Who is Jacob Smith and what is his achievement?",
+    "answers": [
+      {
+        "text": "A legally blind freeride skier",
+        "correct": true
+      },
+      {
+        "text": "A basketball player",
+        "correct": false
+      },
+      {
+        "text": "An artist",
+        "correct": false
+      },
+      {
+        "text": "A musician",
+        "correct": false
+      },
+      {
+        "text": "A politician",
+        "correct": false
+      }
+    ]
+  },
+  {
     "title": "Tesla owner confronts Pennsylvania man accused of scratching swastika on SUV",
     "content": "A Pennsylvania man, Chadd Ritenbaugh, was charged for allegedly scratching a swastika into a Tesla SUV. The incident was captured on video, which showed Ritenbaugh confronting the vehicle's owner, claiming that he used a crayon instead of a key and expressing that he had no issue with the car or its owner, only with Elon Musk. Ritenbaugh's attorney stated that he is undergoing cancer treatment and described his actions as misguided. The police identified him through gym surveillance footage and he faces multiple charges including criminal mischief and harassment.",
     "link": "https://www.foxnews.com/politics/tesla-owner-confronts-pennsylvania-man-accused-scratching-swastika-suv",
@@ -1445,6 +1507,33 @@
     ]
   },
   {
+    "title": " Scientists used JWST instruments 'wrong' on purpose to capture direct images of exoplanets ",
+    "content": "Astronomers have successfully used the James Webb Space Telescope (JWST) in an unconventional manner to capture direct images of exoplanets in the HR 8799 and 51 Eridani star systems. By creatively adjusting the coronagraphs, a tool designed to block starlight, they were able to enhance visibility of the faint light emitted by these distant planets. This innovative approach not only yielded the first-ever images at certain infrared wavelengths but also provided insights into the composition and formation of these exoplanets, highlighting the JWST's capabilities in advancing exoplanet research.",
+    "link": "https://www.space.com/space-exploration/james-webb-space-telescope/scientists-used-jwst-instruments-wrong-on-purpose-to-capture-direct-images-of-exoplanets",
+    "cat": "tech",
+    "positivity": 8,
+    "importance": 9,
+    "question": "How did scientists utilize the JWST to capture images of exoplanets?",
+    "answers": [
+      {
+        "text": "They adjusted the coronagraphs to allow more starlight to leak around them.",
+        "correct": true
+      },
+      {
+        "text": "They used a different telescope altogether.",
+        "correct": false
+      },
+      {
+        "text": "They increased the exposure time for better clarity.",
+        "correct": false
+      },
+      {
+        "text": "They focused only on one star system.",
+        "correct": false
+      }
+    ]
+  },
+  {
     "title": "ChatGPT isn’t the only chatbot that’s gaining users",
     "content": "ChatGPT remains the top chatbot with over 500 million weekly active users; however, competing chatbots are also gaining traction. According to Similarweb, Google's Gemini and Microsoft's Copilot have seen increases in user traffic, with Gemini averaging 10.9 million daily visits and Copilot at 2.4 million. Other competitors like Claude and DeepSeek are also growing, with DeepSeek's chatbot reaching 16.5 million visits, and Grok from xAI showing significant month-over-month growth. The increase in usage is attributed to new AI model releases and enhanced features across various platforms.",
     "link": "https://techcrunch.com/2025/04/01/chatgpt-isnt-the-only-chatbot-thats-gaining-users/",
@@ -1471,33 +1560,6 @@
       },
       {
         "text": "DeepSeek",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "title": " Scientists used JWST instruments 'wrong' on purpose to capture direct images of exoplanets ",
-    "content": "Astronomers have successfully used the James Webb Space Telescope (JWST) in an unconventional manner to capture direct images of exoplanets in the HR 8799 and 51 Eridani star systems. By creatively adjusting the coronagraphs, a tool designed to block starlight, they were able to enhance visibility of the faint light emitted by these distant planets. This innovative approach not only yielded the first-ever images at certain infrared wavelengths but also provided insights into the composition and formation of these exoplanets, highlighting the JWST's capabilities in advancing exoplanet research.",
-    "link": "https://www.space.com/space-exploration/james-webb-space-telescope/scientists-used-jwst-instruments-wrong-on-purpose-to-capture-direct-images-of-exoplanets",
-    "cat": "tech",
-    "positivity": 8,
-    "importance": 9,
-    "question": "How did scientists utilize the JWST to capture images of exoplanets?",
-    "answers": [
-      {
-        "text": "They adjusted the coronagraphs to allow more starlight to leak around them.",
-        "correct": true
-      },
-      {
-        "text": "They used a different telescope altogether.",
-        "correct": false
-      },
-      {
-        "text": "They increased the exposure time for better clarity.",
-        "correct": false
-      },
-      {
-        "text": "They focused only on one star system.",
         "correct": false
       }
     ]
@@ -3761,33 +3823,6 @@
       },
       {
         "text": "She started a charity organization.",
-        "correct": false
-      }
-    ]
-  },
-  {
-    "title": "Oracle under fire for its handling of separate security incidents",
-    "content": "Oracle is under scrutiny for its management of two separate data breaches. One incident involves the theft of patient data from its healthcare subsidiary, Oracle Health, while the other relates to potential breaches of Oracle Cloud servers, with evidence suggesting that hackers have accessed sensitive customer data. Despite reports of these breaches, Oracle has denied that any breaches occurred, leading to concerns about transparency and accountability among both customers and employees.",
-    "link": "https://techcrunch.com/2025/03/31/oracle-under-fire-for-its-handling-of-separate-security-incidents/",
-    "cat": "tech",
-    "positivity": 3,
-    "importance": 8,
-    "question": "What security incidents is Oracle currently facing criticism for?",
-    "answers": [
-      {
-        "text": "Data breaches involving Oracle Health and Oracle Cloud",
-        "correct": true
-      },
-      {
-        "text": "A financial scandal related to stock prices",
-        "correct": false
-      },
-      {
-        "text": "Legal issues surrounding employee contracts",
-        "correct": false
-      },
-      {
-        "text": "Internal conflicts regarding management policies",
         "correct": false
       }
     ]
